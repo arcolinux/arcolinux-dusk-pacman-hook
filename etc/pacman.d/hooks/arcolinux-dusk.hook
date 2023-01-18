@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = arcolinux-dusk-git
+Target = arcolinux-dusk-nemesis-git
+
+[Action]
+Description = Pacman hook to keep your personal dusk running
+When = PostTransaction
+Exec = /usr/local/bin/arcolinux-dusk-build
