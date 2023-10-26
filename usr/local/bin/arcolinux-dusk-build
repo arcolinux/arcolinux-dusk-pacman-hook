@@ -37,6 +37,7 @@ echo "##########################################################################
 echo
 echo "Creating Dusk for "$user
 echo
+echo "Make and make install from /home/"$user"/.config/arco-dusk/"
 
 cd /home/$user/.config/arco-dusk/
 
